@@ -2,10 +2,10 @@ export const heroData = {
   calculation: {
     fajrAngle: 12,
     ishaAngle: 12,
-    latitude: '45.3506',
-    longitude: '-75.793',
+    latitude: '28.671550',
+    longitude: '-81.503420',
     method: 'NauticalTwilight',
-    timeZone: 'America/Toronto',
+    timeZone: 'America/New_York',
   },
   labels: {
     fajr: 'Fajr',
@@ -159,19 +159,17 @@ export const heroData = {
     },
   },
   hijriAdjust: -1,
-  links: {
-    fajr: 'https://archive.org/download/fajr-letter-das/Letter_Fajr-Ishaa_Ottawa-2016-06-27.pdf',
-  },
   calendarUrl:
-    'https://calendar.google.com/calendar/embed?src=60me58mrktt0lt24mijjkhddvc%40group.calendar.google.com&ctz=America%2FNew_York',
+    'https://calendar.google.com/calendar/embed?src=1gg6gn9lt80uhcsetdt5a0igco%40group.calendar.google.com&ctz=America%2FNew_York',
   istijabaText:
     'The Messenger of Allāh ﷺ said, “Friday has twelve meaning hours to it. There is no Muslim who asks Allāh for anything (during it) except that Allāh gives it to him so seek it during the last hour after ʿaṣr.” [Abū Dāwūd al-Sijistānī, al-Sunan #1048] [Al-Albānī: Ṣaḥīḥ]',
 };
 
 export const aboutData = {
   paragraphOne:
-    'As-Ṣaḥāba Muṣallá was officially opened in October 2005 and has been serving the Ramsey community as a place for Muslims to pray 5 times a day, (including the Jumʿuah Prayer) ever since. Lectures on Islām are held on a regular basis and the presence of the Muṣallá has affected the Ramsey area in a positive way, walḥamdulillāh.',
-  paragraphTwo: 'As a service to the Muslim community, Dār As-Ṣaḥāba Provides the Following:',
+    'The mission of the Muslim Community Center of Apopka is to establish a Masjid and Community Center to accommodate our Muslim families’ needs and serve the Apopka community at large. From early 2016, a group of local brothers came together, recognizing a compelling need to have a Masjid in the Apopka area. Through Allāh’s help and guidance, we were able to identify a property in the Apopka area to use as a Masjid. The property where the Masjid is currently located was selected due to its central location and the potential for future growth. By Allāh’s mercy, MCCA was able to purchase the property through a Qard al-Ḥasan loan and we are in the process of repaying that loan. The building then underwent a rapid transformation to convert from a single family home into a Muṣallá capable of meeting the immediate and near future needs of the Apopka Muslim community. Alḥamdulillāh, through Allāh’s mercy and the effort of many volunteers, we opened our doors for Jummah on the 30th of Shaʿbān 1438 (May 26, 2017).',
+  paragraphTwo:
+    'In order to align with our goal of accommodating the needs of Muslim families in the Apopka area and the Apopka community at large, we are currently offering the following services:',
   services: [
     {
       title: 'Five Daily Ṣalawāt',
@@ -181,35 +179,32 @@ export const aboutData = {
     {
       title: 'Ṣalat al-Jumʿuah',
       body:
-        'Every week, salat-ul-Jumʿuah is held at Dār As-Ṣaḥāba (due to limited space, for brothers only), where the khaṭīb deliver the khuṭbah strictly adhering to the Qur’ān & the Sunnah.',
+        'Every week, salat-ul-Jumʿuah is held at Muslim Community Center of Apopka (due to limited space, for brothers only), where the khaṭīb deliver the khuṭbah strictly adhering to the Qur’ān & the Sunnah.',
     },
     {
       title: 'Ṣalat al-Tarawīḥ',
-      body:
-        'During the month of Ramaḍān, every evening Ṣalat al-Tarawīḥ is held (due to limited space, for brothers only).',
+      body: 'During the month of Ramaḍān, every evening Ṣalat al-Tarawīḥ is held.',
     },
     {
       title: 'Ṣalat al-ʿĪd',
       body:
-        'For both ʿĪd al-Fiṭr and ʿĪd al-Aḍḥá, Dār As-Ṣaḥāba holds ʿĪd prayers for the community at a neighbouring park, weather permitting, or community centre.',
+        'For both ʿĪd al-Fiṭr and ʿĪd al-Aḍḥá, Muslim Community Center of Apopka holds ʿĪd prayers for the community along with family activities.',
     },
     {
-      title: 'Lectures',
+      title: 'Community Engagement',
       body:
         'A few knowledgeable brothers remind us of the importance of various facets of our dīn in weekly gatherings. Occasionally, tele-lectures of our esteemed scholars are streamed via the internet at the muṣallá for all to hear.',
     },
     {
-      title: 'Distributing reading and audio/visual materials',
+      title: 'Future Services',
       body:
-        'To those who are interested about Islām, we have provided copies of the Qur’an with translations in the English and French languages; for non-Arabic speaking Muslims, we have also provided translated copies of the Qur’ān in other languages such as Spanish, Somali, Farsi, Urdu, Pashto, etc. As well, we have provided books and tapes/CDs for people ranging from those interested in Islām to those that are interested in further pursuing Islām academically.',
+        'Given the current constraint on resources, we are not able to provide all services to help us achieve our goals. As such, it is the plan of the MCCA steering committee to grow services organically as resources become available and community needs demand. Some of the services that we Inshāʾ Allah hope to offer soon include: Weekly Sunday School, Early Childcare Services, Marriage Services, Funeral and Burial Services, Adult Qurʾān Halaqa, Youth Halaqa, and Activities, Food Pantry Collection and Distribution.',
     },
   ],
 };
 
 export const donationsData = {
-  directDeposit:
-    'If you would like your monthly donation amount to be automatically deducted from your bank account, we have a direct-deposit form available that you can fill out. Simply drop by the muṣallá when any of the administration is there and ask for the form so that we can get you set up in shā’ Allah.',
-  etransfer: 'dar.as.sahaba@hotmail.com',
+  directDeposit: 'Please make checks payable to: MCCApopka 458 Oakland Ave Apopka, FL 32703',
   expenses: [
     { label: 'Rent', value: 3400 },
     { label: 'Utilities', value: 600 },
@@ -219,8 +214,7 @@ export const donationsData = {
   ],
   khutbah:
     'After the Friday sermon, donations for the muṣallá are collected. Sometimes there are baked goods and food that are also being sold for fundraising for the muṣallá. Please donate generously for the sake of Allāh.',
-  paypal:
-    'https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=M36T4MXQHLUHJ&source=url',
+  paypal: 'https://paypal.me/mccapopka',
   reminderDawah:
     'When you participate in online giving, you’re also helping to streamline administrative overhead costs – thus, putting more of your dollars to work in keeping the muṣallá running.',
   reminderReward:
@@ -232,41 +226,29 @@ export const contactInfo = {
     'Feel free to drop by the muṣallá at any time to perform the congregational prayers and to partake in the activities. If you would require help with learning about Islām and wish to speak to one of the members of the administration, please contact us through the website first so that we can schedule an appointment with you at a convenient time in shā’ Allāh.',
   emailButton: 'Email Us',
   mailingList: 'Mailing List',
-  email: 'dar.as.sahaba@gmail.com',
-  mapUrl: 'https://goo.gl/maps/14LYnHa7R9sZsQBG7',
+  email: 'mccapopka@gmail.com',
+  mapUrl: 'https://www.google.com/maps/dir//458+Oakland+Ave,Apopka,FL+32703',
   telButton: 'Call Us',
   tel: '+16133215459',
-  address: '2835 Dumaurier Ave, Ottawa, ON, Canada. K2B 7W3',
+  address: '458 Oakland Ave Apopka, FL 32703',
 };
 
 export const footerData = {
   networks: [
     {
       name: 'twitter',
-      url: 'https://twitter.com/DarAsSahaba',
-    },
-    {
-      name: 'soundcloud',
-      url: 'https://soundcloud.com/DarAsSahaba',
-    },
-    {
-      name: 'instagram',
-      url: 'https://instagram.com/DarAsSahaba',
+      url: 'https://twitter.com/mccapopka',
     },
     {
       name: 'facebook',
-      url: 'https://facebook.com/DarAsSahaba',
+      url: 'https://facebook.com/MCCofApopka',
     },
     {
       name: 'telegram',
-      url: 'https://t.me/DarAsSahaba',
-    },
-    {
-      name: 'youtube',
-      url: 'https://www.youtube.com/channel/UC4JRttylAMmZubEmFOjX7Vg',
+      url: 'https://t.me/mccapopka',
     },
   ],
   privacyPolicy: {
-    effectiveDate: '18 July 2020',
+    effectiveDate: '10 January 2021',
   },
 };
