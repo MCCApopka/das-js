@@ -14,10 +14,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/ragaeeb/das-js"
+    "url": "https://github.com/MCCApopka/das-js"
   },
   "bugs": {
-    "url": "https://github.com/ragaeeb/das-js/issues"
+    "url": "https://github.com/MCCApopka/das-js/issues"
   },
   "scripts": {
     "build": "gatsby build",
