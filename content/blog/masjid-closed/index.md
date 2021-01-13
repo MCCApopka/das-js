@@ -1,5 +1,5 @@
 ---
-title: 'Masjid Open With Regulations'
+title: 'Masjid Open With Restrictions'
 date: '2021-01-10T22:00:54.169Z'
 description: 'Due to Covid-19 Regulations'
 imageUrl: https://s2.gifyu.com/images/closure.jpg
